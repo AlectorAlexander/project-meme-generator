@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>MEME GENERATOR</h1>
+    </header>
+    <main>
+        <div id="inputs">
+            <div id="texto">
+        <h2>Texto:</h2>   <input id="text-input" type="text">
+    </div>
+    <div id="ibagem">
+        <!--referência:https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file-->
+        <h2>Imagem:</h2> <input  id="meme-insert" type="file" accept="image/*">
+
+    </div>
+        </div>
+
+        <div id="meme-image-container">
+          <div id="meme-text"></div>
+
+            <img id="meme" src="" alt="meme">
+        </div>
+    </main>
+<script src="script.js"></script>    
+</body>
+</html>
