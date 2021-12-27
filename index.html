@@ -14,7 +14,7 @@
     <main>
         <div id="inputs">
             <div id="texto">
-        <h2>Texto:</h2>   <input id="text-input" type="text">
+        <h2>Texto:</h2>   <input id="text-input" maxlength="60" type="text">
     </div>
     <div id="ibagem">
         <!--referência:https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file-->
@@ -25,9 +25,25 @@
 
         <div id="meme-image-container">
           <div id="meme-text"></div>
+           <div id="meme-image">
+               <img id="meme" src="" alt="meme">
 
-            <img id="meme" src="" alt="meme">
+           </div>
         </div>
+        <div id="bordas">
+        <h3>Estilos Customizados:</h3>
+        <button id="fire">Queima</button>
+        <button id="water">Molha</button>
+        <button id="earth">Suja</button>
+         </div>
+         <h3>Memes pré prontos</h3>
+     <div id="préMemes">
+        <img id="meme-1"  src="imgs/meme1.png" alt="miniaturas">
+         <img id="meme-2"  src="imgs/meme2.png" alt="miniaturas">
+         <img id="meme-3"  src="imgs/meme3.png" alt="miniaturas">
+         <img id="meme-4"  src="imgs/meme4.png" alt="miniaturas">
+
+     </div>
     </main>
 <script src="script.js"></script>    
 </body>
