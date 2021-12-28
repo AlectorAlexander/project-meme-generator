@@ -26,8 +26,8 @@ memeInsert.addEventListener("change", insereImagem)
 function insereImagem () {
     console.log(memeInsert.value)
     const file = memeInsert.files[0]
-    let imageContainer = document.getElementById("meme-image")
-    const meme = imageContainer.querySelector("#meme")
+    let meme = document.getElementById("meme-image")
+    
 
 
     if (file) {
@@ -84,9 +84,8 @@ for (let meme = 0; meme < cMeme.childElementCount; meme++) {
 }
 
 function insereMeme (mm) {
-    let imageMeme = document.getElementById("meme-image")
-    const memeId = imageMeme.querySelector("#meme")
-
+    let memeId = document.getElementById("meme-image")
+    
 const id = mm.target
 if (id.id == "meme-1"){
     memeId.style.display = "block"
